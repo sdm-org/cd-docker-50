@@ -1,7 +1,7 @@
 module.exports = {
   notify: true,
   moduleNameMapper: {
-    '\\.(css|less)$': '<rootDir>/config/jest.css.stub.js',
+    '\\.(css|less)$':  '<rootDir>/config/jest.css.stub.js',
   },
   collectCoverage: true,
   coveragePathIgnorePatterns: [
