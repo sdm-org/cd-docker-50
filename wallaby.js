@@ -9,7 +9,7 @@ module.exports = (wallaby) => {
       { pattern: 'jest.config.js', load: true },
       { pattern: 'config/*.js', ignore: true },
     ],
-    tests: [
+    tests: [ 
       'src/**/__tests__/*.spec.js',
     ],
     env: {
