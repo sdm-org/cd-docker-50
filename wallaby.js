@@ -2,7 +2,7 @@
 module.exports = (wallaby) => {
   return {
     files: [
-      { pattern: 'src/**/*.jsx', load: true },
+      { pattern:  'src/**/*.jsx', load: true },
       { pattern: 'src/**/__tests__/*.spec.js', ignore: true },
       { pattern: 'src/**/*.js', load: true },
       { pattern: 'src/**/*.less', ignore: true },
